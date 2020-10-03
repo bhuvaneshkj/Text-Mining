@@ -1,0 +1,35 @@
+Spelling Recommender/ Checker
+
+Description :
+
+This project consists of Spelling Checker/ recommender code which was implemented by Python with the help of NLTK library.
+
+Working of Code:
+
+Initally the user needs to input the spelling of a word. It can be either a correct or misspelled word irrespective of case type. 
+The code gets the input and then applies the logic and returns the correctly spelled word based on edit ditance.
+
+Setup:
+
+This code is submitted in the form of .ipynb file which can be imported to any jupyter notebooks and executed by normal execution of python commands in Jupyter notebook.
+Initially all the required libraries are insatlled.
+NLTK is installed using conda prompt by "pip install NLTK"
+Once NLTK is installed it is configured in the jupyter notebook by importing.
+Other functions of NLTK is also imported. 
+Once all libary is imported. The code is executed cell by cell in Jupyter notebook.
+
+Dependancies:
+
+The libaries which are used as described below. 
+
+import nltk
+from nltk.corpus import words
+nltk.download('words')
+from collections import Counter
+import pandas as pd
+from nltk.tokenize import word_tokenize
+nltk.download('punkt')
+from nltk.metrics.distance  import edit_distance
+import numpy as np
+
+User needs to import all the libaries mentioned above. 
